@@ -1,0 +1,20 @@
+#critical{
+  box-sizing: border-box;
+  height: 100%; 
+  width: 100%; 
+  border: 20px solid black;
+  background: rgba(255,0,0,0.8); 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  font-size: 64px; 
+  text-align: center; 
+  color: #ffffff; 
+  padding-top: 20%;
+}
+#toggle-header{
+  opacity: 0;
+}
+#toggle-header:hover{
+  opacity: 1;
+}
